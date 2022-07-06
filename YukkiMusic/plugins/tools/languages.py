@@ -25,34 +25,11 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
-            callback_data=f"languages:en",
-        ),
-    )
-    keyboard.row(
-        InlineKeyboardButton(
-            text="🇮🇳 ગુજરાતી",
+            text="🇪🇺🇸 󠁧󠁢󠁥󠁮󠁧󠁿 English",
             callback_data=f"languages:gu",
         ),
-        InlineKeyboardButton(
-            text="🇹🇷 Türkiye Türkçesi",
-            callback_data=f"languages:tr",
-        ),
-    )
-    keyboard.row(
-        InlineKeyboardButton(
-            text="🇮🇩 Indonesian",
-            callback_data=f"languages:id",
-        ),
-InlineKeyboardButton(
-            text="🐶 Cheems",
-            callback_data=f"languages:cheems",
-        ),
-    )
-    keyboard.row(
-        InlineKeyboardButton(
-            text="🇦🇪 عربي",
-            callback_data=f"languages:ar",
+        text="🇪🇬 عربي󠁧󠁢 ",
+            callback_data=f"languages:en",
         ),
     )
     keyboard.row(
@@ -68,7 +45,6 @@ InlineKeyboardButton(
 
 
 LANGUAGE_COMMAND = get_command("LANGUAGE_COMMAND")
-
 
 @app.on_message(
     filters.command(LANGUAGE_COMMAND)
