@@ -31,8 +31,6 @@ def lanuages_keyboard(_):
         text="🇪🇬 عربي󠁧󠁢 ",
             callback_data=f"languages:en",
         ),
-    )
-    keyboard.row(
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
