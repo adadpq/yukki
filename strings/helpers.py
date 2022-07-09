@@ -1,4 +1,4 @@
-#
+ #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
@@ -7,39 +7,39 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """✅**<u>مرحبا اليك اوامر الادمن:</u>**
 
-**c** stands for channel play.
+**- اذا تريد التشغيل في قناه استخدم حرف c قبل اي امر**.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
+/pause or /cpause - إيقاف تشغيل الموسيقى مؤقتًا.
+/resume or /cresume- استئناف الموسيقى المتوقفة مؤقتًا.
+/mute or /cmute- كتم صوت الموسيقى قيد التشغيل.
+/unmute or /cunmute- قم بإعادة صوت الموسيقى الصامتة.
+/skip or /cskip- تخطي الموسيقى الجاري تشغيلها.
+/stop or /cstop- أوقف تشغيل الموسيقى.
+/shuffle or /cshuffle- ترتيب قائمة التشغيل في قائمة الانتظار عشوائيًا.
+/seek or /cseek - إلى الأمام ابحث عن الموسيقى لمدتك
+/seekback or /cseekback - للخلف ابحث عن الموسيقى حسب مدتك
+/restart - أعد تشغيل البوت للدردشة.
 
 
 ✅<u>**Specific Skip:**</u>
 /skip or /cskip [Number(example: 3)] 
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
-✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+✅<u>**حلقه التشغليل:**</u>
+/loop or /cloop [enable/disable] or [ارقام بين  1-10] 
+  - عند التنشيط ، يقوم البوت بتكرار الموسيقى التي يتم تشغيلها حاليًا إلى 1-10 مرات في الدردشة الصوتية. افتراضي إلى 10 مرات.
 
 ✅<u>**Auth Users:**</u>
 Auth Users can use admin commands without admin rights in your chat.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
+/auth [Username] - أضف مستخدمًا إلى قائمة AUTH للمجموعة.
+/unauth [Username] - إزالة مستخدم من قائمة AUTH بالمجموعة.
+/authusers - تحقق من قائمة المصادقة الخاصة بالمجموعة."""
 
 
-HELP_2 = """✅<u>**Play Commands:**</u>
+HELP_2 = """✅<u>**اوامر التشغيل:**</u>
 
 Available Commands = play , vplay , cplay
 
