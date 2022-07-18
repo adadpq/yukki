@@ -31,7 +31,7 @@ HELP_2 = """✅<u>**اوامر تشغيل البوت في القناه والج�
 ⚡️ اوامر تشغيل البوت في الجروب
 
 - لتشغيل اغنيه :  تشغيل او شغل او /play
-- لتشغيل فيديو : فيديو او /video
+- لتشغيل فيديو : فيديو او /vplay
 - لأنهاء الاغنيه : ايقاف او انهاء او /stop
 - لايقاف الاغنيه مؤقت : وقف او /pause
 - لتكملة الاغنيه  : كمل او /resume
@@ -45,7 +45,7 @@ HELP_2 = """✅<u>**اوامر تشغيل البوت في القناه والج�
 3 استخدم ام /channelplay + معرف القناه للربط
 • ثم استخمد الاوامر بالاسفل للتشغيل
 - لتشغيل اغنيه : ق تشغيل او ق شغل او /cplay
-- لتشغيل فيديو : ق فيديو او /cvideo
+- لتشغيل فيديو : ق فيديو او /cvplay
 - لأنهاء الاغنيه  : ق ايقاف او ق انهاء او /cstop
 - لايقاف الاغنيه مؤقت : ق وقف او cpause
 - لتكملة الاغنيه  : ق كمل او /cresume
@@ -119,7 +119,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 
 🎥**<u>VIDEOCALLS FUNCTION:</u>**
 /set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+/vplaymode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
 
 ⚡️**<u>PRIVATE BOT FUNCTION:</u>**
 /authorize [CHAT_ID] - Allow a chat for using your bot.
